@@ -14,7 +14,7 @@ const meditationImg = "/service-meditation.png";
 const reikiImg = "/service-reiki.png";
 const buildingImg = "/building.png";
 
-const MAPS_LINK = "https://www.google.com/maps/@56.903987,59.95711,17z";
+const MAPS_LINK = "https://www.google.com/maps/@56.9040377,59.9561005,17z";
 
 export default function Home() {
   const [bookingService, setBookingService] = useState<string | null>(null);
@@ -395,12 +395,12 @@ export default function Home() {
               <div className="relative rounded-2xl overflow-hidden border border-border/40 shadow-xl group">
                 <img
                   src={buildingImg}
-                  alt="Здание Лотос центр, пр.Ильича 26"
+                  alt="Здание Лотос центр, пр.Ильича 24"
                   className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
-                  <div className="text-white font-serif text-xl font-bold mb-1">Пр. Ильича 26</div>
+                  <div className="text-white font-serif text-xl font-bold mb-1">Пр. Ильича 24</div>
                   <div className="text-white/70 text-sm">Подвальное помещение — вход со двора</div>
                 </div>
               </div>
@@ -422,7 +422,7 @@ export default function Home() {
                     <div className="font-semibold text-foreground mb-1">Адрес</div>
                     <div className="text-foreground/70 text-sm leading-relaxed">
                       г. Первоуральск,<br />
-                      пр. Ильича, д. 26<br />
+                      пр. Ильича, д. 24<br />
                       <span className="text-primary font-medium">Подвальное помещение</span>
                     </div>
                   </div>
@@ -496,7 +496,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-xs text-foreground/50 mb-1 uppercase tracking-wide">Адрес</div>
-                <div className="text-xl font-bold text-foreground group-hover:text-pink-500 transition-colors">Пр. Ильича 26</div>
+                <div className="text-xl font-bold text-foreground group-hover:text-pink-500 transition-colors">Пр. Ильича 24</div>
                 <div className="text-sm text-foreground/50">Первоуральск</div>
               </div>
             </motion.div>
@@ -559,7 +559,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-1 text-center">
             <div className="flex items-center gap-1.5">
               <MapPin className="h-3 w-3" />
-              Пр. Ильича 26, Первоуральск
+              Пр. Ильича 24, Первоуральск
             </div>
             <a href="tel:+79501953382" className="flex items-center gap-1.5 hover:text-foreground transition-colors">
               <Phone className="h-3 w-3" />
