@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
-import logoPath from "@assets/image_1782656029587.png";
-import logoHandsPath from "@assets/VtBOv9A0wX45R-mwXF5QtIBfS6g6oks7Ib0aX18tUMjYAddHABc5xmFaifQtAT_1782656074220.jpg";
+const logoPath = "/logo.png";
+const logoHandsPath = "/logo-hands.jpg";
 
 const massageImg = "/service-massage.png";
 const meditationImg = "/service-meditation.png";
