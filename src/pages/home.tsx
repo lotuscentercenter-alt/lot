@@ -14,7 +14,7 @@ const meditationImg = "/service-meditation.png";
 const reikiImg = "/service-reiki.png";
 const buildingImg = "/building.png";
 
-const MAPS_LINK = "https://maps.google.com/?q=проспект+Ильича+26+Первоуральск";
+const MAPS_LINK = "https://www.google.com/maps/@56.903987,59.95711,17z";
 
 export default function Home() {
   const [bookingService, setBookingService] = useState<string | null>(null);
@@ -532,7 +532,7 @@ export default function Home() {
                 Telegram
               </a>
               <a
-                href="https://vk.com/mapremvira"
+                href="https://vk.com/im/convo/147222622?tab=all"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-vk-record"
@@ -786,7 +786,7 @@ function BookingModal({ service, isOpen, onClose }: { service: string | null; is
             </Button>
 
             <Button asChild className="w-full h-11 bg-[#4a76a8] hover:bg-[#3d6591] text-white">
-              <a href={`https://vk.com/mapremvira?msg=${vkMsg}`} target="_blank" rel="noopener noreferrer" data-testid="button-open-vk">
+              <a href="https://vk.com/im/convo/147222622?tab=all" target="_blank" rel="noopener noreferrer" data-testid="button-open-vk">
                 <SiVk className="mr-2 h-4 w-4" />
                 Записаться через ВКонтакте
               </a>
