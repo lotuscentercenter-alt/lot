@@ -14,7 +14,7 @@ const meditationImg = "/service-meditation.png";
 const reikiImg = "/service-reiki.png";
 const buildingImg = "/building.png";
 
-const MAPS_LINK = "https://www.google.com/maps/@56.9040377,59.9561005,17z";
+const MAPS_LINK = "https://www.google.com/maps/@56.9040377,59.9561005,3a,75y,196.13h,85.99t/data=!3m7!1e1!3m5!1sFCpxmAYDmCdOzoGaueZcDA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D4.011904295066373%26panoid%3DFCpxmAYDmCdOzoGaueZcDA%26yaw%3D196.13108984826317!7i13312!8i6656!5m2!1e1!1e4";
 
 export default function Home() {
   const [bookingService, setBookingService] = useState<string | null>(null);
@@ -431,7 +431,7 @@ export default function Home() {
 
               <div className="p-5 rounded-2xl bg-card border border-border/40 text-sm text-foreground/70 leading-relaxed">
                 <p className="font-medium text-foreground mb-2">Ориентир</p>
-                <p>Пятиэтажный жилой дом с большой мозаикой-рыбой на торцевой стене. Мы на первом этаже / в подвале — вход со двора, ищите вывеску «Лотос центр».</p>
+                <p>Пятиэтажный жилой дом по пр. Ильича, д. 24. Войдите во двор — мы в подвальном помещении, вход со двора. Ищите вывеску «Лотос центр».</p>
               </div>
 
               <a
