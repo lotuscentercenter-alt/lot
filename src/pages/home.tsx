@@ -634,7 +634,7 @@ function ReikiCard({ openBooking }: { openBooking: (s: string) => void }) {
           <h3 className="text-xl font-serif font-bold text-foreground mb-0.5 group-hover:text-amber-500 dark:group-hover:text-amber-400 transition-colors">
             Рэйки
           </h3>
-          <p className="text-foreground/40 text-xs leading-tight mb-4">Американская федерация мастеров — «Сам себе целитель»</p>
+          <p className="text-foreground/40 text-xs leading-tight mb-4">«Сам себе целитель»</p>
 
           {/* Step switcher */}
           <div className="flex items-center gap-1.5 mb-4 p-1 rounded-xl bg-muted/50 border border-border/40">
